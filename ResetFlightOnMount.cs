@@ -10,7 +10,7 @@ namespace ResetFlightOnMount
 	{
         public override void Load()
         {
-            IL.Terraria.Mount.SetMount += il =>
+            Terraria.IL_Mount.SetMount += il =>
             {
                 try
                 {
